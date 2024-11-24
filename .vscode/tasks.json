@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compile MQL5",
+        "type": "shell",
+        "command": "C:\\Program Files\\MetaTrader 5\\MetaEditor64.exe",
+        "args": [
+          "/compile",
+          "${file}"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Compile MQL5 code using MetaEditor"
+      }
+    ]
+  }
+  
